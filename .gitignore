@@ -15,4 +15,7 @@ ENV/
 # Python
 __pycache__/
 
+# Folders
+plan/
+
 

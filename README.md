@@ -64,7 +64,6 @@ The tutorial covers:
 - Files and paths
 - Errors and debugging
 - Exception handling
-- Modules
 
 Advanced Python, object-oriented programming, and data structures and algorithms will be covered separately.
 
