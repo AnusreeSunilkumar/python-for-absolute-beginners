@@ -1,0 +1,8 @@
+# Python Tutorial for Absolute Beginners
+#
+# Recommended Python version: Python 3.12 or later
+# 
+# These packages are required to open and run the tutorial notebooks
+
+jupyterlab>=4.0,<5.0 
+ipykernel>=6.0,<7.0

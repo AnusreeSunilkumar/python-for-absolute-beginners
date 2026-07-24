@@ -1,0 +1,18 @@
+# IDE and editor folders
+.vs/
+*.idea/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+
+
