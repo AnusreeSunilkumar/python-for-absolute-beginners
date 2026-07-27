@@ -69,9 +69,12 @@ Advanced Python, object-oriented programming, and data structures and algorithms
 
 ## Running the Tutorial Online
 
-You may read the notebooks directly on GitHub. However, GitHub displays notebooks as static pages, so the code cannot be executed there.
+You may read the notebooks directly on GitHub. However, GitHub displays notebooks as static pages, so the code cannot be executed from the repository page.
 
-To run and modify the examples, download the repository and open the notebooks locally using Visual Studio Code or Jupyter.
+To run and modify the examples, you can either:
+
+- Open the repository in GitHub Codespaces and run the notebooks in a browser-based development environment.
+- Download or clone the repository and open the notebooks locally using Visual Studio Code or Jupyter Notebook.
 
 ## Running the Tutorial Offline
 
