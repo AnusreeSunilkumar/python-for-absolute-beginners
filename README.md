@@ -64,6 +64,7 @@ The tutorial covers:
 - Files and paths
 - Errors and debugging
 - Exception handling
+- Modules
 
 Advanced Python, object-oriented programming, and data structures and algorithms will be covered separately.
 
@@ -76,86 +77,7 @@ To run and modify the examples, you can either:
 - Open the repository in GitHub Codespaces and run the notebooks in a browser-based development environment.
 - Download or clone the repository and open the notebooks locally using Visual Studio Code or Jupyter Notebook.
 
-## Running the Tutorial Offline
-
-### Option 1: Download as a ZIP File
-
-This is the simplest option for complete beginners.
-
-1. Open the repository on GitHub.
-2. Select Code.
-3. Select Download ZIP.
-4. Extract the downloaded ZIP file.
-5. Open the extracted folder in Visual Studio Code.
-
-### Option 2: Fork and Clone the Repository
-
-Git is optional and is not required to complete this tutorial.
-
-Learners who already have Git installed can clone the repository:
-
-```bash
-git clone https://github.com/AnusreeSunilkumar/python-for-absolute-beginners.git
-cd python-for-absolute-beginners
-```
-
-### Option 3: Fork and Clone the Repository 
-
-Forking is optional. Use this option if you have a GitHub account and want your own online copy of the repository. 
-
-1. Open the repository on GitHub. 
-2. Select **Fork**. 
-3. Create the fork under your GitHub account. 
-4. Open your forked repository. 
-5. Select **Code** and copy its URL. 
-6. Clone your fork: 
-```bash 
-git clone https://github.com/your-username/python-for-absolute-beginners.git 
-cd python-for-absolute-beginners 
-``` 
-
-Replace `your-username` with your GitHub username.
-
-Forking allows you to save your changes to your own GitHub repository and submit contributions later.
-
-## Setting Up the Environment
-
-Install a stable version of Python and Visual Studio Code.
-
-Recommended Visual Studio Code extensions:
-
-- Python
-- Jupyter
-
-### Create a virtual environment:
-
-#### Windows Command Prompt 
-
-```bat 
-python -m venv .venv 
-.venv\Scripts\activate 
-```
-
-#### Windows PowerShell 
-
-```powershell 
-python -m venv .venv 
-.venv\Scripts\Activate.ps1 
-``` 
-#### macOS or Linux 
-
-```bash 
-python3 -m venv .venv 
-source .venv/bin/activate 
-```
-
-### Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-Open Visual Studio Code and select the Python interpreter from the `.venv` environment.
+Detailed instructions are provided in the [setup notebook](notebooks/03_setting_up_python_and_vscode.ipynb).
 
 ## References
 
